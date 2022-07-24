@@ -1,0 +1,10 @@
+[Unit]
+Description=Shutdown companion using rc option
+
+[Service]
+ExecStart=/home/apsync/pidown/pidown.py --connect 127.0.0.1:14655
+Restart=on-failure
+RestartSec=3s
+
+[Install]
+WantedBy=multi-user.target
