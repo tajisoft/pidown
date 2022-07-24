@@ -13,6 +13,7 @@ $ sudo systemctl start pidown.service
 # How to use
 Assume use RC6_OPTION to shutdown RPi.
 1. set RC6_OPTION=47
+2. Switch CH6 to high and wait 5 sec.
 
 # Feedback
 Any issue report or PR are welcome.
